@@ -129,6 +129,27 @@ app.get('/api/products', async (req, res) => {
 //GET individual product by ID
 
 
+
+
+
+// PUT (Update) individual product by ID
+app.put('/api/products/:productId', async (req, res) => {
+  const productId = req.params.productId;
+
+  try {
+    const updatedProduct = await Product.findByIdAndUpdate(productId, req.body, { new: true });
+    if (!updatedProduct) {
+      return res.status(404).json({ message: 'Product not found' });
+    }
+    res.json(updatedProduct);
+  } catch (err) {
+    console.error('Error updating product:', err);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+
+
 app.listen(3001, () => {
     console.log("Server is running on port 3001");
 });
