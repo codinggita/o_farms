@@ -15,6 +15,10 @@ import Cart from "./Cart"
 import Pricing from './Pricing';
 import VideoList from "./videos";
 import ThreedCarousel from "./threedcarousel";
+import Pdptes from "./pdptes";
+// import { CartCard } from "./carttest";
+import CartPage from './carttest'
+
 
 
 function App(){
@@ -27,7 +31,8 @@ function App(){
                 <Route path="/Products" element={<Products/>}/>
                 <Route path="/Aboutus" element={<Footer/>}/>
                 <Route path="/videos" element={<VideoList/>}/>
-                <Route path="/Cart" element={<VideoList/>}/>
+                <Route path="/Cart" element={<CartPage/>}/>
+                <Route path="/product/:id" element={<Pdptes />} />
             </Routes>
 
             

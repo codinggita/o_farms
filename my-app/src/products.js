@@ -1,6 +1,7 @@
 import "./products.css";
 import Appnavtest from './appnavtest'
 import ThreedCarousel from "./threedcarousel";
+import Producttes from "./testcar";
 
 
 function Products(){
@@ -17,7 +18,7 @@ function Products(){
         <a href="/Cart" className="smd">Cart</a>
      </div>
      <div>
-     <ThreedCarousel/>
+     <Producttes/>
      </div>
     
   

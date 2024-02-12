@@ -4,10 +4,10 @@ import cart from './addtocart.svg';
 import videospic from './videospics.svg';
 
 // import Footer from './Footer';
-//  import Newsletter from './Newsletter';
+// import Newsletter from './Newsletter';
 
-//  import Advertisement from './newtestt';
-//  import JournalPage from './journal';
+
+// import JournalPage from './journal';
 // import Pricing from './Pricing';
 
 
@@ -116,6 +116,7 @@ function Apps(){
     <div className='lowcard'>
     <Newsletter/>
     <Footer/></div> */}
+    
         </div>
 
         
