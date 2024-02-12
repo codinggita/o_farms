@@ -1,11 +1,13 @@
 import React from "react";
+import Cart from "./testcart";
 
 
 
 const Description = ({ title, onQuant, onAdd, onRemove, onSetOrderedQuant }) => {
   return (
     <section className="description">
-      <p className="pre">O-Farms company</p>
+      <div><Cart /></div>
+      <p className="pre">O-Farms company     </p>
       <h1>{title}</h1>
       <p className="desc">
         These Food made purely Organically, Don't miss the essence of it. Go Fast and grab it.
@@ -19,16 +21,20 @@ const Description = ({ title, onQuant, onAdd, onRemove, onSetOrderedQuant }) => 
         <s>Rs 250.00</s>
       </div>
       <div className="buttons">
+       
+
+      {/* <button onClick={addToCart}>Add to Cart</button> */}
+          
         
-        <button
+        {/* <button
           className="add-to-cart"
           onClick={() => {
             onSetOrderedQuant(onQuant);
           }}
         >
           
-          add to cart
-        </button>
+          add to cart */}
+        {/* </button> */}
       </div>
     </section>
   );

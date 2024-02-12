@@ -1,6 +1,6 @@
 import React from 'react';
 import './journal.css';
-import App from './threedcarousel';
+// import App from './threedcarousel';
 
 const JournalPage = () => {
   return (
@@ -18,7 +18,7 @@ const JournalPage = () => {
       </div>
 
       <div className='jsRight flex flex-row gap-24'>
-        <App/>
+        {/* <App/> */}
 
       </div>
 

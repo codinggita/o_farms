@@ -15,6 +15,7 @@ import Description from "./description";
 import { useParams } from "react-router-dom";
 import Cart from "./testcart";
 import { CartItemsContext } from "./CartItemsContext";
+import "./pdptes.css"
 
 const IMAGES = [prod1, prod2, prod3, prod4];
 const THUMBS = [thumb1, thumb2, thumb3, thumb4];
@@ -190,8 +191,8 @@ const Pdptes = () => {
             image={id}
             description={id}
           />
-          <button onClick={addToCart}>Add to Cart</button>
-          <Cart /> {/* Render the Cart component */}
+          <button onClick={addToCart} className="btnadd">Add to Cart</button>
+         
         </section>
       </Container>
     </main>

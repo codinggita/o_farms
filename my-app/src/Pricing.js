@@ -31,26 +31,24 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: 'Free',
+    title: 'Basic',
     price: '0',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      'Access for small farms',
+      'Up to 10 acres',
+      'Standard support',
     ],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
   },
   {
-    title: 'Pro',
+    title: 'Premium',
     subheader: 'Most popular',
     price: '15',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
-      'Priority email support',
+      'Access for medium-sized farms',
+      'Up to 50 acres',
+      'Priority support',
     ],
     buttonText: 'Get started',
     buttonVariant: 'contained',
@@ -59,15 +57,15 @@ const tiers = [
     title: 'Enterprise',
     price: '30',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      'Access for large farms',
+      'Unlimited acres',
+      'Dedicated support',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
-  },
+  }
 ];
+
 
 
 // TODO remove, this demo shouldn't need to reset the theme.

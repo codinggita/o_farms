@@ -96,6 +96,38 @@ app.get('/api/products', async (req, res) => {
     }
   });
 
+  app.get('/:productId', async (req, res) => {
+    const productId = req.params.productId;
+  
+    try {
+      const product = await Product.findById(productId);
+      if (!product) {
+        return res.status(404).json({ message: 'Product not found' });
+      }
+      res.json(product);
+    } catch (err) {
+      console.error('Error fetching product:', err);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  });
+  app.get('/:productId', async (req, res) => {
+    const productId = req.params.productId;
+  
+    try {
+      const product = await Product.findById(productId);
+      if (!product) {
+        return res.status(404).json({ message: 'Product not found' });
+      }
+      res.json(product);
+    } catch (err) {
+      console.error('Error fetching product:', err);
+      res.status(500).json({ message: 'Internal server error' });
+    }
+  });
+
+
+//GET individual product by ID
+
 
 app.listen(3001, () => {
     console.log("Server is running on port 3001");

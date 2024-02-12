@@ -3,12 +3,12 @@ import Appnavtest from './appnavtest.js';
 import cart from './addtocart.svg';
 import videospic from './videospics.svg';
 
-// import Footer from './Footer';
-// import Newsletter from './Newsletter';
-
-
-// import JournalPage from './journal';
-// import Pricing from './Pricing';
+import Footer from './Footer';
+import Newsletter from './Newsletter';
+import Producttes from "./testcar";
+import ThreedCarousel from './threedcarousel.js';
+import JournalPage from './journal';
+import Pricing from './Pricing';
 
 
 function Apps(){
@@ -109,13 +109,15 @@ function Apps(){
 
 </div>
         </div>
-        {/* <div><Apps/></div>
+       
    
     <div><JournalPage/></div>
+    <div><Producttes/></div>
     <div><Pricing/></div>
+    <div><ThreedCarousel/></div>
     <div className='lowcard'>
     <Newsletter/>
-    <Footer/></div> */}
+    <Footer/></div>
     
         </div>
 
