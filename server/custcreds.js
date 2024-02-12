@@ -110,17 +110,17 @@ app.get('/api/products', async (req, res) => {
       res.status(500).json({ message: 'Internal server error' });
     }
   });
-  app.get('/:productId', async (req, res) => {
+  app.delete('/api/products/:productId', async (req, res) => {
     const productId = req.params.productId;
   
     try {
-      const product = await Product.findById(productId);
-      if (!product) {
+      const deletedProduct = await Product.findByIdAndDelete(productId);
+      if (!deletedProduct) {
         return res.status(404).json({ message: 'Product not found' });
       }
-      res.json(product);
+      res.json({ message: 'Product deleted successfully' });
     } catch (err) {
-      console.error('Error fetching product:', err);
+      console.error('Error deleting product:', err);
       res.status(500).json({ message: 'Internal server error' });
     }
   });
