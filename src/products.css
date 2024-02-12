@@ -1,0 +1,120 @@
+.main-c{
+    background-color: #e0e0e080;
+    border: 20px solid;
+    border-color: #0000001a;
+    border-radius: 20px;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    padding:10px;
+    flex-direction: column;
+    background-size:cover;
+  }
+
+  /* .prodnav{
+
+    width: 1356 !important;
+
+  } */
+  .prodcart{
+    background-color: black;
+    height:80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-c{
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.33) 99.97%,
+      rgba(255, 255, 255, 0.33) 99.98%,
+      rgba(255, 255, 255, 0.22) 99.99%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border: 15px solid;
+    border-color: #00000080;
+    border-radius: 20px;
+    
+    mix-blend-mode: hard-light;
+    height:550px;
+    width:1200px;
+    margin-left:45px;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .smd{
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: 500;
+    font-family:"Inter", Helvetica;
+    font-size:15px;
+    border:solid;
+    border-color:none;
+    border-radius:12px;
+    text-decoration: none;
+    
+    
+  }
+
+  .smdd{
+    display:flex;
+    justify-content:center;
+  }
+
+  .centi{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+  }
+
+  .frame-2 {
+    background-color: #000000f2;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
+    border-radius: 75px;
+    height: 550px;
+    padding:10px;
+    
+    width: 1234px;margin: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+
+  .chev1{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  .ptext{
+    display: flex;
+    justify-content:center;
+    color: white;
+    font-weight: 500;
+    font-family:"Inter", Helvetica;
+    font-size:20px;
+  }
+
+  .icon-chevron-right {
+    height: 52px; /* Adjust the height based on your design */
+    width: 22px; /* Adjust the width based on your design */
+   
+  }
+
+  .more-btn{
+    display: flex;
+    align-items:end;
+  }
