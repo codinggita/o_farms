@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "o-farms",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-=======
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -72,5 +60,4 @@
       "last 1 safari version"
     ]
   }
->>>>>>> 8ff9875f6558975892010b3ea1967a25f486fb3a
 }
